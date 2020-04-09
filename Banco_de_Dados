@@ -1,0 +1,59 @@
+1.a. Álgebra relacional
+
+O que é um select?
+  Operação que atua sobre uma única relação, produzindo um subconjunto com apenas os elementos especificados na
+  condição. Filtra linhas de uma tabela.
+
+O que é join?
+  Une duas tabelas quando eles possuem um atributo em comum.
+  
+Diferença entre inner join e outer join?
+  Outer join vai dar todas as linhas da tabela A e todas da tabela B mesmo que não tenham algo em comum.
+  Inner join vai dar apenas as linhas com atributos em comum.
+  EX: Tabela A      Tabela B      Outer join      Inner join
+      1             2             1               2
+      2             3             2               3
+      3             4             3
+                                  4
+
+Diferença entre left join e right join?
+  Left join permite obter dados de duas tabelas e também dados não relacionados dispostos na tabela à esquerda.
+  Right join faz o mesmo com dados de uma tabela à direita.
+  
+O que é uma foreign key?
+  É o que estabelece o relacionamento entre duas tabelas. Com isso, uma coluna corresponde à mesma coluna que é a
+  chave primária de outra tabela.
+  
+O que é um domínio de indentificação?
+  O domínio é o que define o tipo de dados que descreve os tipos de valores que podem aparecer em cada coluna.
+  
+b. SQL básico - consulta
+
+  O que significa o termo "linguagem relacional"?
+    É a linguagem usada em bancos de dados, que modela os dados de forma que eles sejam dispostos em tabelas.
+    
+  Por que se usa o formato de dados de tabelas?
+    Para ter uma melhor organização dos dados dispostos que dessa forma são mais facilmente vizualizados.
+  
+  Por que foreign keys são salvas em tabelas?
+    Para manter o padrão da linguagem relacional. (*?*)
+  
+  Como podemos garantir modelos 1:1, 1:N e N:N?
+    
+  
+  Qual a estrutura de tabela mais eficiente no caso 1:1?
+    
+
+c. PostgreSQL
+  
+  Onde fisicamente são armazenados os dados do banco de dados?
+    
+  
+  Por que usa-se compatibilidadde com JSON no PostgreSQL?
+    
+  
+  Como threading afeta o banco de dados?
+    
+
+  Por que existem as camadas de segurança de mutação de dados no PostgreS?
+    
